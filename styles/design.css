@@ -31,6 +31,11 @@
     font-weight: 400;
     margin-bottom: 30px;
 }
+.section-title{
+    color: var(--Dark-01, #131313);
+    font-size: 45px;
+    font-weight: 700;
+}
 
 /* header styles */
 
@@ -44,11 +49,6 @@ nav{
     justify-content: space-between;
     align-items: center;
 
-}
-.nav-title{
-    color: var(--Dark-01, #131313);
-    font-size: 45px;
-    font-weight: 700;
 }
 nav > ul{
     display: flex;
