@@ -115,6 +115,46 @@ main{
     font-weight: 700;
 }
 
+/* features section styles */
+
+.features{
+    display: flex;
+    margin-top: 130px;
+    gap: 140px;
+}
+.features .section-title{
+    border-left: 3px solid #FF900E;
+    padding-left: 20px;
+}
+.features-content .card{
+    padding: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+.features-img img{
+    height: 90%;
+    margin-left: 100px;
+}
+.ten-badge-year{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFFFFF;
+    width: 342px;
+    padding: 45px 40px;
+    position: relative;
+    bottom: 140px;
+}
+.ten-badge-year h2{
+    font-size: 65px;
+    margin: 0px;
+}
+.ten-badge-year p{
+    font-size: 25px;
+    text-align: center;
+}
+
 /* facts section */
 
 .facts-card-container{
